@@ -1,0 +1,14 @@
+# Big/local stuff (lives in /bhome via symlinks)
+data/
+experiments/
+
+# Outputs & caches (keep results out by default; you can change later)
+results/**/
+
+# Notebooks & Python cruft
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Archives / temp
+*.zip *.tar *.tar.gz *.tmp
