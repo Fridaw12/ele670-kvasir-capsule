@@ -1,14 +1,50 @@
-# Big/local stuff (lives in /bhome via symlinks)
+# --- Project data lives in /bhome via symlinks ---
 data/
 experiments/
 
-# Outputs & caches (keep results out by default; you can change later)
+# --- Outputs & reports (keep generated stuff out) ---
 results/**/
+reports/figures/**
 
-# Notebooks & Python cruft
+# --- Notebooks & Python cruft ---
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
 
-# Archives / temp
-*.zip *.tar *.tar.gz *.tmp
+# --- Tool caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- Envs (use conda env.yml instead) ---
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# --- Editors/OS noise ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Secrets/config (commit templates instead) ---
+.env
+.env.*
+*.secret
+*.key
+
+# --- Archives / temp ---
+*.zip
+*.tar
+*.tar.gz
+*.tmp
