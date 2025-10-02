@@ -47,4 +47,7 @@ Thumbs.db
 *.zip
 *.tar
 *.tar.gz
-*.tmp
+*.tmpresults/
+reports/
+**/.ipynb_checkpoints/
+*.py[cod]
