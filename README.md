@@ -6,9 +6,7 @@ This repository contains experiments on the **Kvasir-Capsule** dataset. The work
 
 ## Notebooks
 
-- **00_data_checks.ipynb** – basic dataset and metadata checks  
 - **01_eda.ipynb** – exploratory data analysis (pixel intensity, RGB, PCA, texture features)  
-- **03_resnet50.py** – initial ResNet50 training script (sanity check)  
 - **03_resnet50_efficient.ipynb** – efficient ResNet50 training pipeline  
 - **gpu_test.py** – test GPU availability  
 - **pick_gpu.py** – select least-used GPU  
