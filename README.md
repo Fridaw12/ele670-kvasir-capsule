@@ -12,11 +12,4 @@ This repository contains experiments on the **Kvasir-Capsule** dataset. The work
 - **pick_gpu.py** – select least-used GPU  
 - **tiny_resnet50_best.pt** – example checkpoint from a small run  
 
-## Progress
 
-- Verified dataset structure and metadata  
-- Performed EDA showing class imbalance and patient-specific clustering  
-- Excluded very small classes (e.g. *Ampulla of Vater*, *Polyp*, *Blood–hematin*)  
-- Implemented and tested efficient ResNet50 training pipeline  
-  - 2-epoch sanity run: ~403s, GPU usage up to 80%  
-- Next: extend to full ResNet50 model with cross-validation and improved performance
