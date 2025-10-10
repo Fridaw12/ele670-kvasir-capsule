@@ -1,0 +1,12 @@
+experiment_tag,label_id,class_name,global_count,global_pct,train_count,train_pct,train_abs_dev_pp,train_rel_dev_%,val_count,val_pct,val_abs_dev_pp,val_rel_dev_%
+weighted_cb_beta0.99_grouped_class_balanced,0,Angiectasia,866,1.836,182,0.767,1.069,58.2,684,2.917,1.081,58.9
+weighted_cb_beta0.99_grouped_class_balanced,1,Blood - fresh,446,0.945,22,0.093,0.853,90.2,424,1.808,0.863,91.2
+weighted_cb_beta0.99_grouped_class_balanced,2,Erosion,507,1.075,295,1.244,0.169,15.7,212,0.904,0.171,15.9
+weighted_cb_beta0.99_grouped_class_balanced,3,Erythema,159,0.337,123,0.519,0.181,53.8,36,0.154,0.184,54.5
+weighted_cb_beta0.99_grouped_class_balanced,4,Foreign Body,776,1.645,186,0.784,0.861,52.3,590,2.516,0.871,52.9
+weighted_cb_beta0.99_grouped_class_balanced,5,Ileocecal valve,4189,8.88,1777,7.491,1.389,15.6,2412,10.286,1.405,15.8
+weighted_cb_beta0.99_grouped_class_balanced,6,Lymphangiectasia,592,1.255,74,0.312,0.943,75.1,518,2.209,0.954,76.0
+weighted_cb_beta0.99_grouped_class_balanced,7,Normal clean mucosa,34338,72.795,18187,76.67,3.876,5.3,16151,68.874,3.921,5.4
+weighted_cb_beta0.99_grouped_class_balanced,8,Pylorus,1538,3.26,994,4.19,0.93,28.5,544,2.32,0.941,28.9
+weighted_cb_beta0.99_grouped_class_balanced,9,Reduced Mucosal View,2906,6.161,1154,4.865,1.296,21.0,1752,7.471,1.311,21.3
+weighted_cb_beta0.99_grouped_class_balanced,10,Ulcer,854,1.81,727,3.065,1.254,69.3,127,0.542,1.269,70.1
